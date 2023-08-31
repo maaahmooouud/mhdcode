@@ -1,0 +1,87 @@
+.hero-section {
+    background-image:url(../images/background/wepik-export-20230716112627n7es.jpeg);
+   padding: 100px;
+   background-size: cover;
+   height: 300px;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   
+}
+
+.hero-section > .top-heading {
+    background-color: #f15900;
+    color: #201e1f;
+    width: 720px;
+    border-radius: 2px;
+    padding: 1px 20px ;
+}
+.hero-section > .bottom-heading {
+    background-color: #f15900;
+    color: #201e1f;
+    padding: 1px 20px;
+    margin-top: 14px;
+    width: 107px;
+    border-radius: 2px;
+}
+/* features section style */
+.features-section {
+    height: 400px;
+    background-image: url(../images/background/rm378-07.jpg);
+    background-color: #1B2CC1;
+    padding: 100px;
+   background-size: cover;
+   height: 300px;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   border-top: 10px solid #f15900;
+   color: #f15900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+.column >  img{
+    width: 40px;
+  
+    
+}
+.features-section > .columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.features-section > .columns-wrapper >.column {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+.features-section > .columns-wrapper >.column:hover {
+    border-bottom: 5px solid #f15900 ;
+}
+.img {
+    background: url("/images/logos/orange\ \(1\).png");
+    padding: 0px;
+    margin: 0px;
+    width: 150px;
+    height: 50px;
+}
+.left-column > .contact-hours-wrapper > .email a {
+    text-decoration: none;
+    color: #f15900;
+    font-family: 'Righteous', serif ,'FontAwesome';
+    display: flex;
+    transition: 0.4s;
+}
+.left-column > .contact-hours-wrapper > .email a:hover {
+    letter-spacing: 2px ;
+
+}
+.left-column > .contact-hours-wrapper > .email >a .fa-solid, .fas  {
+    font-size: 2em;
+    margin-right: 0.4em;
+}

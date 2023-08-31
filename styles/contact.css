@@ -1,0 +1,61 @@
+.page-container {
+    height: 800px;
+}
+.contact-grid-wrapper {
+    width: 1000px;
+    display:grid ;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+}
+
+.company-metadata-sidebar-wrapper > .logo img {
+    width: 90%;
+    margin-bottom: 20px;
+
+
+}
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 1600;
+    color: #040019;
+    margin-right: 2em;
+    
+}
+.company-metadata-sidebar-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+.company-metadata-sidebar-wrapper>.my-details-wrapper {
+    font-family: 'Righteous', serif ,'FontAwesome'; 
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #040019;
+
+}
+.company-metadata-sidebar-wrapper>.my-details-wrapper  > .location {
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+.company-metadata-sidebar-wrapper> .my-details-wrapper  > .email {
+    
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.email a {
+    text-decoration: none;
+    color: #040019;
+    font-family: 'Righteous', serif ,'FontAwesome';
+    display: flex;
+    transition: 0.4s;
+}
+.email a:hover {
+    letter-spacing: 2px ;
+
+}

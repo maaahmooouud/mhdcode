@@ -1,0 +1,23 @@
+.btn {
+    background-color: #040019;
+    color: #f15900;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid #040019;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+    font-family: inherit;
+}
+
+.centered-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.spacer10 {
+    height: 10px;
+    width: 100%;
+}
+.btn:active {
+    box-shadow:10px 10px 60px rgba(0, 0, 0, 1) ;
+}

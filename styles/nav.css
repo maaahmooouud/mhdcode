@@ -1,0 +1,120 @@
+/*Common styles*/
+body {
+    margin: 0px;
+    font-family: 'Righteous', serif;
+   
+    
+   
+  
+}
+
+/* COmmon nav styles */
+.navigation-wrapper{
+    height: 170px;
+    background-image: url(../images/background/3200146.jpg);
+    background-color: #040019;
+    
+    color: #f15900;
+    /* Flexbox xontainer */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 40px 80px ;
+   
+   background-repeat: no-repeat;
+   background-blend-mode: color;
+   
+
+   
+}
+.left-column {
+    display: flex;
+    align-items: center;
+
+
+}
+.icon {
+    margin-right: 15px;
+}
+.icon i {
+    font-size: 2em;
+}
+
+.left-column > .contact-hours-wrapper { 
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 10px;
+    color: #f15900;
+
+}
+.adress {
+    color: #f15900;
+    display: -webkit-inline-box;
+    
+
+}
+.nav-link {
+    text-align: center;
+    color: #201e1f;
+    font-family: 'Righteous', serif;
+}
+
+.center-column
+{
+    display: grid;
+    grid-template-columns: 1fr;
+   
+    width: 500px ;
+}
+.banner-image {
+    display: flex;
+    justify-content: center;
+    color: #f15900;
+}
+
+.link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #201e1f;
+    font-family: 'Righteous', serif;
+    
+    
+}
+.link-wrapper > .nav-link a {
+    color:#f15900;
+    font-family: 'Righteous';
+    text-decoration: none;
+    transition: 0.4s;
+}
+.link-wrapper > .nav-link a:hover {
+    color: #f15900;
+    letter-spacing: 2px ;
+}
+.right-column {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    display: inline-block;
+}
+.right-column > .adress > .map-icon  {
+    margin-left: 15px;
+    font-size: 2em;
+}
+.adress a {
+    color: #f15900;
+
+   text-decoration: none;
+   transition: 0.4s;
+}
+.adress a:hover{
+    color: #f15900;
+    letter-spacing: 2px ;
+
+}
+
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #f15900;
+}

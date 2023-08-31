@@ -1,0 +1,165 @@
+body {
+    margin: 0px;
+    font-family: 'Righteous', serif;
+    min-width: max-content;
+}
+
+
+
+/*skewed header*/
+.skewed-header {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    background-color: #f15900;
+}
+
+.skewed-header > .header-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-9deg);
+    transform-origin: top left;
+    filter: brightness(0.5);
+
+}
+
+.skewed-header > .skewed-header-wrapper {
+    position: absolute;
+    display:flex;
+    justify-content:center ;
+    width: 100vw; 
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+    width: 1000px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper {
+    background-color: #f15900 ;
+    color: #201e1f;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    
+    padding: 10px;
+    text-align: center;
+}
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #201e1f;
+    font-family: 'Righteous', serif;
+      display: contents;
+}
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .link-wrapper > .nav-link a {
+    color: #f15900;
+}
+.guide-container {
+    display: flex;
+    justify-content:center  ;
+    background-color: #f15900;
+    flex-direction: column;
+    
+}
+.guide-container > .guide-content {
+    width: 1000px;
+    align-self: center;
+}
+
+.guide-container > .guide-content #img1 {
+    width: 250px;
+    margin: 25px;
+    float: left;
+    border: solid;
+}
+.guide-container  > .guide-content2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+    align-self: center;
+    
+}
+p {
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.guide-container  > .guide-content2 >.c1-2  {
+    display: flex;
+    
+    
+}
+.guide-container > .guide-content2 >.c3-4 {
+    display: flex;
+    
+}
+.guide-container > .guide-content2 > .c5-6 {
+    display: flex;
+    
+}
+.guide-container  > .guide-content2 > .c7-8 {
+    display: flex;
+    
+}
+.guide-container  > .guide-content2 > .c1-2> .c1 {
+    width : 500px;
+    margin-right: 9em;
+}
+
+
+.guide-container  > .guide-content2 >.c1-2 > .c2 {
+    width :  500px;
+    margin-right: 9em;
+
+} 
+.guide-container > .guide-content2 >.c3-4> .c3 {
+    width :  500px;
+    margin-right: 9em;
+}
+.guide-container  > .guide-content2 >.c3-4> .c4 {
+    width :  500px;
+    margin-right: 9em;
+}
+.guide-container  > .guide-content2 >.c5-6> .c5 {
+    width :  500px;
+    margin-right: 9em;
+}
+.guide-container  > .guide-content2 > .c5-6>.c6 {
+    width :  500px;
+    margin-right: 9em;
+}
+.guide-container  > .guide-content2 > .c7-8 >.c7 {
+    width :  500px;
+    margin-right: 9em;
+}
+.guide-container > .guide-content2 > .c7-8 >.c8 {
+    width :  500px;
+    margin-right: 9em;
+}
+.anchor-link {
+    text-decoration: none;
+    color: black;
+}
+.anchor-link:focus {
+    outline: none;
+    color: black;
+} 
+.anchor-link h3::after {
+    font-family: "Font Awesome 5 Free" ;
+    content: "  \f0c1";
+    font-weight: 900;
+}
